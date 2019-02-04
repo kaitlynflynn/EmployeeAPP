@@ -20,6 +20,8 @@ public class Main
 
         System.out.println("Original divided 5 " + (c1.debt / 5));
         System.out.println("Original divided 7 " + (c1.debt / 7));
+        System.out.println("Original divided 7.0 " + (c1.debt / 7.0));
+        System.out.println("Original divided 7 " + ((double)c1.debt / 7));
     }
     public static void main(String[] args)
     {
