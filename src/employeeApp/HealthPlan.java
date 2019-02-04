@@ -10,6 +10,8 @@ public class HealthPlan
     // set contructor
     public HealthPlan (String name)
     {
+        maxId++; // set our maxId
+        id = maxId;
         this.name = name; // 'this.name' refers to the name which is part of the object, 'name' referes to our constructor in params
     }
 
