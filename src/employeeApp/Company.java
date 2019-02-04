@@ -16,4 +16,14 @@ public class Company
         this.name = name;
         this.debt = debt;
     }
+
+    // change the default 'toString' method and override it
+    @Override
+    public String toString()
+    {
+        String rtnStr = "id: " + id + "\n" +
+                        "name: " + name + "\n" +
+                        "debt: " + debt + "\n";
+        return rtnStr;
+    }
 }
