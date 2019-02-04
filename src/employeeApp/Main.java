@@ -17,6 +17,9 @@ public class Main
         // how we display something to console
         System.out.println("*** Query Data ***");
         System.out.println(c1); // this will print info for Company 1
+
+        System.out.println("Original divided 5 " + (c1.debt / 5));
+        System.out.println("Original divided 7 " + (c1.debt / 7));
     }
     public static void main(String[] args)
     {
